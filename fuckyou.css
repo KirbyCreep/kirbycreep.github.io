@@ -1,3 +1,7 @@
+@font-face { 
+    font-family: pusab; src: url('pusab.OTF'); 
+} 
+
 body {
     text-align: center;
 }
