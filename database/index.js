@@ -76,9 +76,10 @@ async function load_pic(url) {
     let response = await fetch(url, options)
 
     if (response.status === 200) {
-        
-        const imageBlob = await response.blob()
-        const imageObjectURL = URL.createObjectURL(imageBlob);
+        //selena gets hit by a car
+        //-kirbv
+        //const imageBlob = await response.blob()
+        const imageObjectURL = url//URL.createObjectURL(imageBlob);
 
         const image = document.createElement('img')
         image.src = imageObjectURL
