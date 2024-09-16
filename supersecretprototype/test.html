@@ -12,12 +12,14 @@ function getQueryVariable(variable) {
     } 
     console.error('Query Variable ' + variable + ' not found');
 }
-let panelpath = getQueryVariable("chapter") +'/'+getQueriVariable("panel")+'.png'
+window.onload = function(){
+let panelpath = getQueryVariable("chapter") +'/'+getQueryVariable("panel")+'.png'
 document.getElementById("panel").src = panelpath;
+}
  </script>
  <head>
 
  </head>
  <body>
-    <img src="", id="panel">
+    <img src="", id="panel"/>
  </body>
