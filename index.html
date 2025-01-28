@@ -30,44 +30,30 @@
 <p><a href="https://people-and-stuff.github.io">people & stuff</a> (uhhh)</p>
 <p>burnin (page pending)</p>
 <br>
-<p><img src="https://kirbycreep.github.io/poopshitters.jpg" alt="the poopshitters" width="250" height="250" /></p>
-<p>(remind me to change that image later)</p>
+<p><img src="https://kirbycreep.github.io/notamoron.jpg" alt="I'M NOT A MORON!" width="250" height="250" /></p>
 
 
 <script type="text/javascript">
-    // i stole this from jummbox
-        switch (Math.floor(Math.random() * 10)) {
-            case 0:
-                document.getElementById("tagline").innerHTML = "it\'s as easy as ??? ? ????? ?? ????? ?";
-            break;
-            case 1:
-                document.getElementById("tagline").innerHTML = "don\'t expect anything";
-            break;
-            case 2:
-                document.getElementById("tagline").innerHTML = "doppelganger joke";
-            break;
-            case 3:
-                document.getElementById("tagline").innerHTML = "the architect and the builder";
-            break;
-            case 4:
-                document.getElementById("tagline").innerHTML = "what? no, seriously, what?";
-            break;
-            case 5:
-                document.getElementById("tagline").innerHTML = "i\'m using tilt controls!";
-            break;
-            case 6:
-                document.getElementById("tagline").innerHTML = "user... i remember you\'re, <b>webpages</b>";
-            break;
-            case 7:
-                document.getElementById("tagline").innerHTML = "chapter 9: the part where he kills you";
-            break;
-            case 8:
-                document.getElementById("tagline").innerHTML = "funny or otherwise lengthy flavor text";
-            break;
-            case 9:
-                document.getElementById("tagline").innerHTML = "the j";
-            break;
-            //to do: add more taglines later
-    }
+    //i stole this from poppyfrost, who stole it from #guigui. coding!
+    const lines = [
+    "it\'s as easy as ??? ? ????? ?? ????? ?",
+    "don\'t expect anything",
+    "doppelganger joke",
+    "the architect and the builder",
+    "what? no, seriously, what?",
+    "i\'m using tilt controls!",
+    "user... i remember you\'re, <b>webpages</b>",
+    "chapter 9: the part where he kills you",
+    "funny or otherwise lengthy flavor text",
+    "the j",
+    "the braincell",
+    "you know the place",
+    "\"you can't believe everything you see on the internet!\"<br>-Abraham Lincoln (trust me)",
+    "i am very green, but i'm mean",
+    "[SPOILERS] [SPOILERS] [SPOILERS] [SPOILERS]",
+    "the part where you REALIZE"
+]
+
+document.getElementById("tagline").textContent = lines[Math.floor(Math.random()*(lines.length-1))]
 </script>
 </body>
