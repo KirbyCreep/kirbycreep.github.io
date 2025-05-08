@@ -1,5 +1,5 @@
 {
-    "html.autoClosingTags": false,
+    "html.autoClosingTags": true,
     "javascript.autoClosingTags": false,
     "typescript.autoClosingTags": false
 }
