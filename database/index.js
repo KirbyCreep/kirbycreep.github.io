@@ -3,7 +3,7 @@
 
 // const basepath = "https://file.garden/ZRbeyspOlUzNliYE/test/"
 const basepath = "https://file.garden/Ze38BlK6smwFJMcv/database/"
-const placeholder = "https://kirbycreep.github.io/cantload.png"
+const placeholder = "https://kirbycreep.github.io/database/cantload.png"
 
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
